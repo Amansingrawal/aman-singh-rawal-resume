@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman Singh Rawal - Resume</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 5px;
+        }
+        .subtitle {
+            font-size: 1.2em;
+            opacity: 0.9;
+            margin-bottom: 20px;
+        }
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            font-size: 0.95em;
+            margin-top: 15px;
+        }
+        .contact-info a {
+            color: white;
+            text-decoration: none;
+            border-bottom: 1px solid rgba(255,255,255,0.5);
+        }
+        .contact-info a:hover {
+            border-bottom: 1px solid white;
+        }
+        main {
+            padding: 40px;
+        }
+        section {
+            margin-bottom: 35px;
+        }
+        h2 {
+            font-size: 1.5em;
+            color: #333;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+        }
+        .about {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+            line-height: 1.6;
+            color: #555;
+        }
+        .education-item, .project-item, .cert-item {
+            margin-bottom: 25px;
+        }
+        .education-item h3, .project-item h3, .cert-item h3 {
+            font-size: 1.2em;
+            color: #333;
+            margin-bottom: 5px;
+        }
+        .education-item .institution, .cert-item .issuer {
+            color: #667eea;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        .project-item .role {
+            color: #667eea;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        .metrics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin: 15px 0;
+        }
+        .metric {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .metric-value {
+            font-size: 1.8em;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .metric-label {
+            font-size: 0.85em;
+            opacity: 0.9;
+        }
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .skill-category h3 {
+            color: #333;
+            margin-bottom: 12px;
+            font-size: 1.1em;
+        }
+        .skill-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        .skill-tag {
+            background: #e8eaf6;
+            color: #667eea;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: 500;
+        }
+        .bullet-list {
+            list-style: none;
+            margin: 15px 0;
+        }
+        .bullet-list li {
+            margin-bottom: 10px;
+            padding-left: 25px;
+            position: relative;
+            line-height: 1.5;
+            color: #555;
+        }
+        .bullet-list li:before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #667eea;
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #f8f9fa;
+            color: #999;
+            font-size: 0.9em;
+        }
+        @media print {
+            body { background: white; padding: 0; }
+            .container { box-shadow: none; border-radius: 0; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Aman Singh Rawal</h1>
+            <p class="subtitle">Aspiring Digital Marketer</p>
+            <div class="contact-info">
+                <a href="tel:8392993620">📱 8392993620</a>
+                <a href="mailto:amansinghrawal15@gmail.com">📧 amansinghrawal15@gmail.com</a>
+                <span>📍 Rohini Sector-7, Delhi – 110085</span>
+                <a href="https://linkedin.com/in/aman-singh-rawal-" target="_blank">🔗 LinkedIn</a>
+            </div>
+        </header>
+
+        <main>
+            <!-- About Section -->
+            <section>
+                <h2>About Me</h2>
+                <div class="about">
+                    <p>Aspiring Digital Marketer with hands-on knowledge of Meta Ads, Google Ads, SEO, content creation, and analytics. Familiar with audience targeting, keyword research, campaign optimization, and performance tracking. A quick learner with strong attention to detail and a proactive mindset, eager to support digital marketing initiatives and grow within a professional team environment.</p>
+                </div>
+            </section>
+
+            <!-- Education Section -->
+            <section>
+                <h2>Education</h2>
+                <div class="education-item">
+                    <h3>Bachelor of Commerce (B.Com)</h3>
+                    <p class="institution">Indira Gandhi National Open University (IGNOU)</p>
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section>
+                <h2>Key Skills</h2>
+                <div class="skills">
+                    <div class="skill-category">
+                        <h3>🎯 Digital Marketing</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Meta Ads Campaign Management</span>
+                            <span class="skill-tag">Google Ads (Search & Display)</span>
+                            <span class="skill-tag">Performance Marketing</span>
+                            <span class="skill-tag">Audience Targeting</span>
+                            <span class="skill-tag">Campaign Optimization</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>🔍 SEO</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Keyword Research</span>
+                            <span class="skill-tag">On-Page SEO Basics</span>
+                            <span class="skill-tag">Competitor Analysis</span>
+                            <span class="skill-tag">Google Search Console</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>📊 Analytics & Tools</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Google Analytics</span>
+                            <span class="skill-tag">SEMrush</span>
+                            <span class="skill-tag">WordPress</span>
+                            <span class="skill-tag">Email Marketing</span>
+                            <span class="skill-tag">Social Media Optimization</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>🎨 Creative Skills</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Canva Design</span>
+                            <span class="skill-tag">Copywriting</span>
+                            <span class="skill-tag">Video Editing</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section>
+                <h2>Projects & Practical Experience</h2>
+
+                <div class="project-item">
+                    <h3>Meta Ads Campaign (2025)</h3>
+                    <p class="role">Digital Marketing Agency Awareness Campaign</p>
+                    <div class="metrics">
+                        <div class="metric">
+                            <div class="metric-value">127K+</div>
+                            <div class="metric-label">Impressions</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-value">115K+</div>
+                            <div class="metric-label">People Reached</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-value">₹370</div>
+                            <div class="metric-label">Budget</div>
+                        </div>
+                    </div>
+                    <ul class="bullet-list">
+                        <li>Reduced cost per 1,000 people reached to approximately ₹2.60</li>
+                        <li>Generated website traffic and messaging conversations through optimized targeting</li>
+                    </ul>
+                </div>
+
+                <div class="project-item">
+                    <h3>PRISMWHITE (YouTube Channel)</h3>
+                    <ul class="bullet-list">
+                        <li>Created and managed YouTube videos using AI-generated voiceovers</li>
+                        <li>Optimized video titles, descriptions, and keywords to improve reach and engagement</li>
+                        <li>Designed thumbnails to enhance click-through rates</li>
+                        <li>Analyzed performance metrics to improve retention and content strategy</li>
+                        <li>Built and scaled an AI-driven YouTube channel with growing views and engagement</li>
+                    </ul>
+                </div>
+
+                <div class="project-item">
+                    <h3>Personal Website – Adrunkaro.com</h3>
+                    <ul class="bullet-list">
+                        <li>Built and managed a WordPress website from scratch</li>
+                        <li>Implemented SEO strategies, content creation, and performance optimization</li>
+                        <li>Improved website visibility, user engagement, and content structure</li>
+                    </ul>
+                </div>
+
+                <div class="project-item">
+                    <h3>AdRocketAI</h3>
+                    <ul class="bullet-list">
+                        <li>Designed and published social media creatives and ad posts using Canva</li>
+                        <li>Assisted in improving post reach and engagement through A/B content testing</li>
+                        <li>Supported campaign planning and execution for digital platforms</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Certifications Section -->
+            <section>
+                <h2>Certifications</h2>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
+                    <div class="cert-item">
+                        <h3>Master in Digital Marketing</h3>
+                        <p class="issuer">Delhi Institute of Digital Marketing (DIDM)</p>
+                    </div>
+                    <div class="cert-item">
+                        <h3>Google Analytics Certification</h3>
+                        <p class="issuer">Google</p>
+                        <p style="font-size: 0.9em; color: #666;">Issued: Nov 2025 | Valid till: Nov 2026</p>
+                    </div>
+                    <div class="cert-item">
+                        <h3>Master AI-Powered SEO</h3>
+                        <p class="issuer">WsCube Tech</p>
+                        <p style="font-size: 0.9em; color: #666;">Issued: Nov 2025</p>
+                    </div>
+                    <div class="cert-item">
+                        <h3>HubSpot Academy Certification</h3>
+                        <p class="issuer">HubSpot</p>
+                        <p style="font-size: 0.9em; color: #666;">Issued: Nov 2025 | Valid till: Nov 2026</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Aman Singh Rawal. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
